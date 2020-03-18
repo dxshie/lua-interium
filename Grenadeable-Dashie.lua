@@ -27,6 +27,7 @@ Menu.Checkbox("Show Location Text", "bLocation", true);
 Menu.Checkbox("Show World2Screen", "bWorldToScreen", true);
 Menu.SliderFloat("YPos", "fSliderY", "1", Globals.ScreenHeight(), "%.0f", Globals.ScreenHeight() / 2)
 Menu.SliderFloat("XPos", "fSliderX", "1", Globals.ScreenWidth(), "%.0f", 1)
+Menu.ColorPicker("Color", "cAll", 255, 255, 255, 255);
 Menu.Spacing();
 Menu.Spacing();
 
@@ -61,9 +62,7 @@ local function RenderHealth()
       local PlayerInfo = CPlayerInfo.new();
       Player:GetPlayerInfo(PlayerInfo);
 
-      local col = Color.new(0, 255, 0, 255);
-      col.g = col.g - (100 - PlayerHealth) * 2.55;
-      col.r = col.r + (100 - PlayerHealth) * 2.55;
+      local col = Menu.GetColor("cAll");
 
       if Menu.GetBool("bWorldToScreen") then
         local ToScreen = Vector.new(0, 0, 0);
