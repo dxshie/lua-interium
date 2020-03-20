@@ -16,15 +16,15 @@
 ## Q/A
 
 - ![Q](https://placehold.it/15/f03c15/000000?text=+) Q: How to get PRIVATE access?
-  - A: [gamesense.pub](https://gamesense.pub) invite (i want to port somes luas for skeet)
+  - ![A](https://placehold.it/15/c5f015/000000?text=+) A: [gamesense.pub](https://gamesense.pub) invite (i want to port my luas for skeet)
 - ![Q](https://placehold.it/15/f03c15/000000?text=+) Q: When *EBDetection* release?
-  - A: When i got a invite i wanna release it for all major providers
+  - ![A](https://placehold.it/15/c5f015/000000?text=+) A: When i got a invite i wanna release it for all major providers
 - ![Q](https://placehold.it/15/f03c15/000000?text=+) Q: Can you port this lua or create this lua?
-  - A: No pls don't contact me about that i just create luas i think i would use
+  - ![A](https://placehold.it/15/c5f015/000000?text=+) A: No pls don't contact me about that i just create luas i think i would use
 
 ## Contact / Author  : dashie#0921
 
-## Public
+## Public / Released
 
 ### KillGlow
 
