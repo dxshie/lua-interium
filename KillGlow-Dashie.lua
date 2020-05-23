@@ -17,7 +17,7 @@
 -- Note    : Converted from Aimware Lua (by can't find thread contact me) to Interium LUA
 
 local author = "dashie";
-local verison = 1;
+local version = 1;
 
 -- Menu
 Menu.Text("KillGlow by " .. author .. " v" .. version);
