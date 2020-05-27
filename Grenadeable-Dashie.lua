@@ -55,7 +55,7 @@ local function RenderHealth()
 
     local Player = IEntityList.GetPlayer(i);
 
-    if (Player and Player:GetClassId() == 40 and Player:IsAlive() and not Player:IsDormant()) then
+    if (Player and Player:GetClassId() == 40 and Player:IsAlive() and not Player:IsDormant() and not Player:IsTeammate()) then
       local PlayerHealth = Player:GetPropInt(iHealth_Offset);
       local PlayerOrigin = Player:GetPropVector(vOrigin_Offset);
       local PlayerPlace = Player:GetPropString(lastPlace_Offset);
